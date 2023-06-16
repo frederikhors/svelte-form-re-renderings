@@ -8,13 +8,13 @@
 </script>
 
 <li>
-	<div class="md:col-span-2">
+	<div>
 		<label for="name">Player Name</label>
 
 		<input type="text" bind:value={player.name} />
 	</div>
 
-	<div class="md:col-span-2">
+	<div>
 		<label for="age">Age</label>
 
 		<input type="number" bind:value={player.age} />
